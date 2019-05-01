@@ -9,3 +9,12 @@ As I didn't want to expose admin interface to the Internet, the only solution wa
 
 For some reason TP Link does not provide any API that would allow to communicate with router, fortunatelly web interface is pretty straght forward so it was easy to mock its behaviour.
 
+### Usage
+
+Open `reboot.php` in any editor and set correct username, password and IP address of the router.
+
+Then just run:
+
+```csh
+php reboot.php
+```
